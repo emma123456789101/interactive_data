@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+	<script src="https://d3js.org/d3.v4.js"></script>
+        <script src="simpleheat.js"></script>
+    <script src="main.css"></script>
+
+    </head>
+
+<body>
+
+<h1> Reporting data in Great Britain</h1>
+<svg id="scatter" width="400" height="400"></svg>
+<script src="scatter.js"></script>
+
+<h2> the bubble chart that is all the latitudes from 2007.</h2>
+<div id="Bubble"></div>
+
+<script src="Bubble.js"></script>
+
+<h2>Heatmap</h2>
+<div id="heatmap"></div>
+
+<script src="heatmap.js"></script>
+
+<h2>Bar Chart</h2>
+<!-- Adding the buttons to chose which option -->
+<button onclick="update(data1)">Variable 1</button>
+<button onclick="update(data2)">Variable 2</button>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+<script src="my_dataviz.js"></script>
+
+
+
+
+
+</body>
+</html>
